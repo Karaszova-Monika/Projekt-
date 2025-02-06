@@ -1,0 +1,73 @@
+Vypracovala: Ing. Monika Kárászová
+
+Rok: 2024/2025
+
+Predmet: Internet Vecí
+
+Cieľ projektu: 
+
+Tento projekt sa zameriava na zostrojenie jednoduchého hlukového merača pomocou
+
+mikrokontroléra ESP32 a zvukového senzora KY-038. Cieľom projektu je meranie hladiny
+
+hluku. Ak bude detegovať úroveň zvuku nad určitou hladinou, zobrazí správu na displeji
+
+,,TICHO PROSÍM´´, ak sa hluk prestane zobrazí: ,,DAKUJEM´´
+
+
+
+Komponenty:
+
+1. Mikrokontrolér ESP32:
+
+o Dvojjadrový mikrokontrolér s Wi-Fi a Bluetooth konektivitou
+
+o V tomto projekte sa využíva jeho analógový vstup na pripojenie zvukového senzora     
+
+esp32.png
+
+2. Zvukový senzor KY-038:  
+
+
+
+a-41.jpg
+
+o Tento snímač využíva kondenzátorový mikrofón na detekciu zvuku
+
+o Výstupom senzora je analógový signál, ktorý spracováva mikrofónom         a-41.jpg                                                                          
+
+
+
+3. LCD displej 16x2 (I2C):
+
+o Použitý na zobrazenie výsledkov merania hlučnosti prostredia
+
+stiahnuť (1).jpg
+
+a-41.jpg
+
+
+Záver:
+
+Tento nástroj je jednoduchý na monitorovanie úrovne hluku v rôznych prostrediach, ako sú
+
+školy, jedálne alebo verejné miestnosti(čakáreň u lekára). V tomto projekte sme použili
+
+mikrokontrolér ESP32 a senzor KY-038 na detekciu zvuku, podľa hlučnosti sa zobrazuje na
+
+LCD displeji prosba o ticho alebo poďakovanie.
+
+Tento projekt je možné upraviť podľa vlastných potrieb, napríklad zmenou prahovej hodnoty
+
+na citlivejšej detekcii zvuku alebo vylepšením zobrazenia
+
+
+
+ZDROJE:
+
+ESP32 Pinout Reference: Which GPIO pins should you use? | Random Nerd Tutorials
+
+
+the 0.96 not shown anything - Other Hardware / Displays - Arduino Forum
+
+Senzor zvuku KY-037 – Techfun.sk – Naj Arduino shop
