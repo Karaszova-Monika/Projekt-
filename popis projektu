@@ -12,7 +12,7 @@ mikrokontroléra ESP32 a zvukového senzora KY-038. Cieľom projektu je meranie 
 
 hluku. Ak bude detegovať úroveň zvuku nad určitou hladinou, zobrazí správu na displeji
 
-,,TICHO PROSÍM´´, ak sa hluk prestane zobrazí: ,,DAKUJEM´´
+,,TICHO PROSÍM´´, ak  hluk prestane zobrazí: ,,DAKUJEM´´
 
 
 
@@ -27,8 +27,6 @@ o V tomto projekte sa využíva jeho analógový vstup na pripojenie zvukového 
 esp32.png
 
 2. Zvukový senzor KY-038:  
-
-
 
 a-41.jpg
 
@@ -59,7 +57,7 @@ LCD displeji prosba o ticho alebo poďakovanie.
 
 Tento projekt je možné upraviť podľa vlastných potrieb, napríklad zmenou prahovej hodnoty
 
-na citlivejšej detekcii zvuku alebo vylepšením zobrazenia
+na citlivejšiu detekciu zvuku alebo vylepšením zobrazenia.
 
 
 
